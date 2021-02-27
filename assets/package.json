@@ -1,0 +1,13 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "html": "browser-sync  start --server --files '**/*.css, **/*.html, **/*.js'",
+    "sass": "node-sass -w -r ./scss -o ./css"
+  },
+  "author": "",
+  "license": "ISC"
+}
